@@ -1,4 +1,4 @@
-## Remote-Docker-Development for CLion(and Jetbrains family) & VSCode
+## Remote-Development-on-Docker for CLion(and Jetbrains family) & VSCode
 
 ## CLion(以及Jetbrains家族) & VSCode 可用的Docker远程开发配置文件
 
