@@ -6,7 +6,7 @@ x-defaults: &default
   build: .
   volumes:
 # 把当前目录(源代码目录) mount 到 docker container 的特定目录，那个目录就是 docker 环境里面进行编译的工作区间
-    - .:/home/deploy/projects/
+    - ..:/home/deploy/projects/
   networks:
     - default
 
