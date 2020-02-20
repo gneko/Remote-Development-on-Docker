@@ -11,7 +11,7 @@ This template is based on C++ development, please modify files on your demand.
 #### 1. CLion(以及Jetbrains家族)使用方法 || Usage with CLion(and Jetbrains family)
 
 ```bash
-docker-compose -f .devcontainer/docker-compose.yml
+docker-compose -f .devcontainer/docker-compose.yml up -d
 ```
 
 **CLion  Preferences** - Build, Execution, Deployment - *1. Toolchains, 2. CMake, 3. Deployment*
