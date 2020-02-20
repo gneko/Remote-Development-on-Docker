@@ -6,7 +6,9 @@
 
 This template is based on C++ development, please modify files on your demand.
 
-### 1. CLion(以及Jetbrains家族)使用方法 || Usage with CLion(and Jetbrains family)
+### 完整文档请参阅[使用Docker作为C++开发环境：适用于CLion与VSCode的配置](https://graueneko.xyz/archives/64/)
+
+#### 1. CLion(以及Jetbrains家族)使用方法 || Usage with CLion(and Jetbrains family)
 
 ```bash
 docker-compose -f .devcontainer/docker-compose.yml
@@ -20,7 +22,7 @@ Please notice: don't change the ROOT directory in *Deployment* option, use the f
 
 
 
-### 2. VSCode使用方法 || Usage with VSCode
+#### 2. VSCode使用方法 || Usage with VSCode
 
 在容器中打开此文件夹，注意：项目根目录，而非~~*.devcontainer*~~目录。
 
@@ -28,7 +30,7 @@ Open this folder in container. NOTICE: ROOT directory, not the  ~~*.devcontainer
 
 
 
-### 3. 一些参数 || Parameters
+#### 3. 一些参数 || Parameters
 
 **用户名&密码：** deploy
 
@@ -46,7 +48,7 @@ Open this folder in container. NOTICE: ROOT directory, not the  ~~*.devcontainer
 
 
 
-### 4. 参考文献 || References
+#### 4. 参考文献 || References
 
 1. [Clion 如何使用 Docker 作为开发环境](https://imhuwq.com/2018/12/02/Clion%20%E4%BD%BF%E7%94%A8%20Docker%20%E4%BD%9C%E4%B8%BA%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/)
 2. [Cannot save file](https://youtrack.jetbrains.com/issue/CPP-14601?_ga=2.83103062.1327578204.1582092725-641298214.1579166547&_gac=1.48538196.1580011675.CjwKCAiA66_xBRBhEiwAhrMuLXsy9S50WCc3ZX50CVsuD_mUCL7Ol9blwosi0UJaDGrnxo6nSkGAexoC_YwQAvD_BwE)
